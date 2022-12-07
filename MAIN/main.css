@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:ital,wght@1,700&display=swap');
+body{
+   font-family: 'Montserat', sans-serif;font-size:larger;font-weight: 400;
+   padding: 0 ;
+   margin: 0 ;
+   height : 100vh;
+   background: white ;
+   background-size: cover ;
+   background-repeat: no-repeat;
+
+}
+#header{ width: auto ;background: linear-gradient(to right, #bc45b8, #4f112b);padding: 30px ;text-align: center;}
+img{
+   width: 300px ;
+   height: auto ;
+   border: 2px solid blue ;
+   border-radius : 50% ;
+   }
+#content,#sidebar,#Ican {
+   width : 1800px ;
+   font-size: xx-large ;
+}
+#Ican {
+   padding-top: 40px ;
+   margin-left: 50px ;
+   padding-bottom: 40px ;
+}
+#content{
+   padding : 50px;
+   min-width: 200px ;
+}
+#sidebar {
+   margin-left: 50px ;
+
+}
+.fa {color:rgb(84, 167, 167) }
+.git {color :black}
+.ins { color : red ;}
+.mai { color :#bc45b8}
+.mes{ color: rgb(42, 23, 165) ;}
+.social {
+   margin-top: 150px ;
+   width : 100px ;
+   float: right;
+   font-size: 60px ;
+}
+#contact{
+   text-align: center;
+   font-size: xx-large ;
+   font-family: 'Times New Roman', Times, serif;
+
+}

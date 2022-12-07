@@ -1,0 +1,50 @@
+body {
+    background: rgb(164, 192, 25);
+}
+#wrapper{
+   max-width: 960px ;
+   margin: 0px auto ;
+   border-radius: 40px ;
+   
+}
+#header{
+    text-align: center;
+   background: aqua;
+   border-radius: 40px ;
+}
+#main-content {
+    border-radius:20px ;
+    display : flex ;
+    background: rgb(255, 255, 255) ;
+    min-height : 550px ;
+
+}
+#l-sidebar img {
+    width: 230px;
+    height:auto ;
+    border: 4px solid rgb(210, 94, 44) ;
+    border-radius: 60%;
+}
+#l-sidebar{
+    margin: 35px ;
+    text-align: center;
+    flex-basis: 30% ;
+}
+#content{
+    margin : 20px ;
+    flex-basis: 50%;
+     
+}
+#r-sidebar{
+    font-size: 30px ;
+    flex-basis: 20% ;
+}
+    .fac {color:rgb(35, 63, 156) }
+    .git {color :black}
+    .ins { color : rgb(247, 39, 32) ;}
+    .mes { color :rgb(197, 20, 179)}
+#footer {
+    border-radius: 40px ;
+    text-align: center;
+    background : pink ;
+}
